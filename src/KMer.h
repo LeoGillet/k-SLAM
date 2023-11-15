@@ -36,6 +36,7 @@
 #include "sequenceTools.h"
 #include <parallel/algorithm>
 #include <thread>
+#include <array>
 namespace SLAM {
 // Type used to store kMer offset
 typedef uint32_t offsetType;
