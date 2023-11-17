@@ -13,5 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: install boost-dev
+      run: sudo apt install boost-dev
     - name: build
       run: cd build && make
